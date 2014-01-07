@@ -1,6 +1,6 @@
 #! /usr/bib/ruby
 
-meal = 20.0
+meal = 20
 tax  = 0.12
 tip  = 0.2
 

@@ -1,8 +1,13 @@
 #! /usr/bib/ruby
 
-meal = 20.0
-tax  = 0.12
-tip  = 0.2
+puts "what is the pre-tax value of your meal?"
+meal = Float(gets)
+
+puts "what is the current tax rate?"
+tax  = Float(gets)
+
+puts "how much would you like to tip?"
+tip  = Float(gets)
 
 tax_value = meal * tax
 meal_with_tax = meal + tax_value
